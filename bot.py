@@ -43,13 +43,13 @@ async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
     responses = {
-        "b1b2": "📍 B1/B2 Visa Slot Group:\n👉 https://t.me/B1B2VisaSlotAlerts\n💡 Turn ON notifications for fastest alerts.",
-        "f1": "🎓 F1/F2 Visa Slot Group:\n👉 https://t.me/F1VisaSlotTracking\n📢 Daily updates for Student & Dependent visas.",
-        "f1refused": "⛔ F1/F2 Refused Slots:\n👉 https://t.me/ReviseAndRiseF1\n🎓 For students whose previous visa was refused.",
-        "h1b": "👨‍💼 H1B/H4 Updates:\n👉 https://t.me/B1B2VisaSlotAlerts\n💼 Covers work & dependent visa slots.",
-        "dropbox": "📭 Dropbox Appointments:\n👉 https://t.me/B1B2VisaSlotAlerts\n🗂️ For no-interview reappointments.",
-        "canada": "🇨🇦 Canada to USA Visa Slots:\n👉 https://t.me/B1B2VisaSlotAlerts\n🔁 For cross-location bookings.",
-        "b1refused": "⛔ B1/B2 Refused Slots:\n👉 https://t.me/B1B2VisaSlotAlerts\n📌 For those who were previously refused.",
+        "b1b2": "📍 B1/B2 Visa Slot Group:\n👉 https://t.me/+29iDwvXZzbszN2M1",
+        "f1": "🎓 F1/F2 Visa Slot Group:\n👉 https://t.me/+fOady0ZejI8wNzVl",
+        "f1refused": "⛔ F1/F2 Refused Slots:\n👉 https://t.me/+fOady0ZejI8wNzVl",
+        "h1b": "👨‍💼 H1B/H4 Updates:\n👉 https://t.me/+29iDwvXZzbszN2M1",
+        "dropbox": "📭 Dropbox Appointments:\n👉 https://t.me/+29iDwvXZzbszN2M1",
+        "canada": "🇨🇦 Canada to US Visa Slots:\n👉 https://t.me/+29iDwvXZzbszN2M1",
+        "b1refused": "⛔ B1/B2 Refused Slots:\n👉 https://t.me/+29iDwvXZzbszN2M1",
         "consult": "🧾 DS-160 & Visa Help:\n🌐 www.visaslotindiahub.com\n📞 WhatsApp: +91 91105 91822\n📩 contact@visaslotindiahub.com",
         "corporate": "🏢 Corporate Visa Services\n\nWe assist companies with bulk US visa slots, documentation & real-time updates.\n\n✅ Trusted by Kohler, upGrad, and others.\n📞 +91 91105 91822\n🌐 www.visaslotindiahub.com\n📩 contact@visaslotindiahub.com",
         "travel": "✈️ Partner with Us (Travel Agencies)\n\n✅ Priority slot access for your clients\n✅ Commission-based collaboration\n✅ Dedicated team support\n📞 +91 91105 91822\n🌐 www.visaslotindiahub.com\n📩 contact@visaslotindiahub.com",
